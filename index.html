@@ -35,7 +35,8 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#work">Work</a></li>
+								<li><a href="#capstone">Project</a></li>
+								<li><a href="#ml">ML</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -69,9 +70,9 @@
 								<h4>Hacker101 Ctf</h4>
 								<span class="image main"><img src="images/hacker101.png" alt=""/></span>
 							</article>
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
+						<!-- Project -->
+							<article id="capstone">
+								<h2 class="major">Capstone Project</h2>
 								<p>
 									Pictured below is my Capstone SQL Scaffolding project. This project was designed in conjunction with Tyler Porcher, and Charles Haislip.
 									Currently the Github repo for this project remains private, but I wanted to document some screenshots displaying our progress.
@@ -96,6 +97,47 @@
 								<h5>Database View</h5>
 								<p>Place for professor to upload new Databases.</p>
 								<span class="image main"><img src="images/DatabaseUpload.jpg" alt="" /></span>
+							</article>
+						<!-- ML -->
+							<article id="ml">
+								<h2 class="major">ML Project</h2>
+								<a type="button" href="https://github.com/TorinStott/ecgMachineLearningProject" target="_blank" class="button">View Code</a>
+								<!-- <button onclick="parent.location='http://www.google.com'" type="button" formtarget="_blank">View Code</button> -->
+								<p></p>
+								<h3>Problem Statement</h3>
+								<p>
+									This project aimed to make predictions using a dataset derived from echocardiogram tests.  It was designed to classify if patients will survive for at least 
+									one year after a heart attack.
+								</p>
+								<h3>Data Preparations</h3>
+								<p>
+									Initial dataset was loaded from UC Irvine which may be downloaded <a href="https://archive.ics.uci.edu/ml/datasets/echocardiogram" target="_blank">here</a>.
+								</p>
+								<p>
+									Shown below is a snapshot of initial data
+								</p>
+								<span class="image main"><img src="images/dataSnapshot.jpg" alt="" /></span>
+								<p>
+									Some columns such as name and group were were stripped from the data.  Note there are also some empty values "?" which also need to be removed to properly train models.
+								</p>
+								<h4>Column Descriptions</h4>
+								<li>Age-at-heart-attack: age in years when patient experienced heart attack</li>
+								<li>Fractional-shortening: measures contractility around heart.</li>
+								<li>Wall-motion-score: measures how parts of left ventricle move</li>
+								<li>And many more.</li>
+								<p>These features were fed into various training models to predict if the patient would be alive after one year</p>
+								<h4>KNN</h4>
+								<span class="image main"><img src="images/KNN.jpg" alt="" style="height: 40%; width: 40%;"/></span>
+								<h4>Perceptron</h4>
+								<span class="image main"><img src="images/Perceptron.jpg" alt="" style="height: 40%; width: 40%;"/></span>
+								<h4>SVM</h4>
+								<span class="image main"><img src="images/SVM.jpg" alt="" style="height: 40%; width: 40%;"/></span>
+								<h3>Conclusion</h3>
+								<p>
+									In this project I learned the importance of utilizing model selection techniques.
+									It is worth exploring using these models with a larger dataset to get more accurate classifications.
+									SVM performed most effectively as a classifier because data was not linearly separable.
+								</p>
 							</article>
 						<!-- Contact -->
 							<article id="contact">
@@ -359,13 +401,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 							</article>
-
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 					</footer>
-
 			</div>
 
 		<!-- BG -->
