@@ -204,19 +204,21 @@
 									</button>
 									<p></p>
 								</div>
-								<h1>Contact Me</h1>
-								<form action="">
+								<h1>Contact Form</h1>
+								<form action="https://formsubmit.co/832f03fc84672459d4decd967e816556" method="POST">
 									<label for="name">Name</label>
-									<input type="text" id="name" name="name" placeholder="Your name..">
+									<input type="text" id="name" name="name" placeholder="Your name.." required>
+									<p></p>
+									<label for="email">Email</label>
+									<input type="text" id="email" name="email" placeholder="example@gmail.com" required>
 									<p></p>
 									<label for="subject">Subject</label>
 									<input type="text" id="subject" name="subject" placeholder="Subject">
 									<p></p>
-									<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+									<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 									<p>&nbsp;</p>
-									<input type="submit" style="float: right;" value="Submit">
-									<!-- <a href="https://torinstott.github.io/index.html"><button style="float: right;">Cancel</button></a> -->
-									<button type="button"  onclick="window.history.back();">Cancel</button>
+									<button type="submit" style="float: right;">Submit</button>
+									<button type="button"  onclick="window.location.href='#'">Cancel</button>
 								</form>
 							</article>
 						<!-- Contact -->
