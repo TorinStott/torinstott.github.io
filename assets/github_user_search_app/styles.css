@@ -1,0 +1,65 @@
+#background {
+  background-color: #2a3962;
+  position: relative;
+  border-radius: 8px;
+  padding: 20px 10px 30px 10px;
+  vertical-align: middle;
+}
+.outer-div {
+  width: 50%;
+  min-height: 15%;
+  max-height: 95%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+#profilePhoto {
+  height: 100%;
+  width: 150px;
+  object-fit: contain;
+}
+#result {
+  display: block;
+  border-radius: 5px;
+  padding: 15px;
+}
+.input-text {
+  min-width: 90%;
+  margin-left: 20px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.search-bar {
+  position: relative;
+}
+.search-bar .icon {
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 13px 15px 13px 11px;
+}
+/* hide all scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, head, body {
+  background-color: #141c2f;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, ul, li{
+  color: rgb(233, 233, 233);
+}
+/* screen sizes 500px and up */
+@media(max-width: 500px) {
+  .outer-div{
+    height: 98%;
+    width: 90%;
+  }
+}
