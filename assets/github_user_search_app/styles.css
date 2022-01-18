@@ -6,7 +6,7 @@
   vertical-align: middle;
 }
 .outer-div {
-  width: 50%;
+  width: 55%;
   min-height: 15%;
   max-height: 95%;
   overflow: auto;
@@ -23,6 +23,7 @@
   display: block;
   border-radius: 5px;
   padding: 15px;
+  overflow:hidden;
 }
 .input-text {
   min-width: 90%;
@@ -56,10 +57,16 @@ html, head, body {
 h1, h3, ul, li{
   color: rgb(233, 233, 233);
 }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
 /* screen sizes 500px and up */
 @media(max-width: 500px) {
-  .outer-div{
-    height: 98%;
-    width: 90%;
-  }
+  .column {
+      width: 100%;
+    }
 }

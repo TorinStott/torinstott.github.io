@@ -18,22 +18,19 @@ form.addEventListener('submit', function (e) {
     }
   })
   .then((data) => {
+      document.getElementById("result").style.backgroundColor = "#2f2f2fbe";
       document.getElementById("result").innerHTML = `
-      <div class="mt-2" style="background-color: #2f2f2fbe;" id=result>
-          <div class="row">
-            <div style="width: 180px;">
-              <a target="_blank" href="https://github.com/${uName}"><img id="profilePhoto" src="${data.avatar_url}"></img></a>
-            </div>
-            <div class="col-sm">
-              <h3 style="padding-right: 15px;"><a target="_blank" href="${data.html_url}">${uName}</a></h3>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-code-branch"></i></span>Public Repos : ${data.public_repos}</li>
-                <li><span class="fa-li"><i class="fas fa-user-plus"></i></span>Followers : ${data.followers}</li>
-                <li><span class="fa-li"><i class="fas fa-calendar-check"></i></span>Created at : ${data.created_at}</li>
-                <li><span class="fa-li"><i class="fas fa-calendar-day"></i></span>Updated at : ${data.updated_at}</li>
-              </ul>
-            </div>
-          </div>
-      </div>`
+        <div class=column style="height: 150px;">
+          <a target="_blank" href="https://github.com/${uName}"><img id="profilePhoto" src="${data.avatar_url}"></img></a>
+        </div>
+        <div class="column" style="width: 310px;">
+          <h3 style="padding-right: 10px;"><a target="_blank" href="${data.html_url}">${uName}</a></h3>
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fas fa-code-branch"></i></span>Public Repos : ${data.public_repos}</li>
+            <li><span class="fa-li"><i class="fas fa-user-plus"></i></span>Followers : ${data.followers}</li>
+            <li><span class="fa-li"><i class="fas fa-calendar-check"></i></span>Created at : ${data.created_at}</li>
+            <li><span class="fa-li"><i class="fas fa-calendar-day"></i></span>Updated at : ${data.updated_at}</li>
+          </ul>
+        </div>`
   })
 })
