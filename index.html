@@ -1,287 +1,451 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-		<link rel="manifest" href="images/site.webmanifest">
-		<title>Torin Stott Porfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-		.pagination {
-		display: inline-block;
-		}
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <title>Torin Stott Porfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      .pagination {
+        display: inline-block;
+      }
 
-		.pagination a {
-		color: rgb(255, 255, 255);
-		float: left;
-		padding: 8px 16px;
-		text-decoration: none;
-		}
+      .pagination a {
+        color: rgb(255, 255, 255);
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
 
-		.pagination a.active {
-		background-color: #4CAF50;
-		color: white;
-		border-radius: 5px;
-		}
+      .pagination a.active {
+        background-color: #4caf50;
+        color: white;
+        border-radius: 5px;
+      }
 
-		.pagination a:hover:not(.active) {
-		background-color: #ddd;
-		border-radius: 5px;
-		}
-		</style>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
-			<div id="particles-js"></div>
-			<script src="/assets/js/particles.js"></script>
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<style>
-								#profile {
-									height: 100%;
-									width: 100%;
-									border-radius:50%;
-									margin-left: auto;
-									margin-right: auto;
-									display: block;
-								}
-							</style>
-							<span class=""><img src="images/codingIcon.jpg" alt="" id=profile /></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>My Portfolio</h1>
-								<p>A showcase of my projects and abilities.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#capstone">Works</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#form">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
+      .pagination a:hover:not(.active) {
+        background-color: #ddd;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <div id="particles-js"></div>
+      <script src="/assets/js/particles.js"></script>
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <style>
+            #profile {
+              height: 100%;
+              width: 100%;
+              border-radius: 50%;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+          </style>
+          <span class=""
+            ><img src="images/codingIcon.jpg" alt="" id="profile"
+          /></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>My Portfolio</h1>
+            <p>A showcase of my projects and abilities.</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#capstone">Works</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#form">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<style>
-									img {
-										height: 40%;
-										width: 40%;
-										margin-left: auto;
-										margin-right: auto;
-										display: block;
-										border: solid rgb(155, 155, 155) 3px;
-									}
-								</style>
-								<span class="img"><img src="images/myProfile.jpg" alt="" style="border-radius: 50%;"/></span>
-								<p></p>
-								<p>
-									I am Torin Stott, a recent Computer Science graduate at Georgia Southern University.  Outside of schooling most of my time is spent coding and tinkering
-									 in various linux distributions.  I am very interested in application security.  I have participated in many CTF style programs such as tryhackme and 
-									 hacker101.
-								</p>
-								<h4>TryHackMe Profile</h4>
-								<style>
-									.thm_font {
-										min-height: 65px;
-									}
-									.thm_icon {
-										border: 0px;
-									}
-								</style>
-								<script src="https://tryhackme.com/badge/45609"></script>
-								<p></p>
-								<h4>Hacker101 Ctf</h4>
-								<a href="images/hacker101.png">
-									<span class="image main"><img src="images/hacker101.png" alt=""/></span>
-								</a>
-							</article>
-						<!-- Project -->
-							<article id="capstone">
-								<div class="" id="extraNav" style="padding-top: 10px;">
-									<button onclick="window.location.href='#'">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-left fa-lg"></i></a>
-									</button>
-									<button onclick="window.location.href='#ml'" style="float: right;">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-right fa-lg"></i></a>
-									</button>
-									<p></p>
-								</div>
-								<h2 class="major">Capstone Project</h2>
-								<p>
-									Pictured below is my Capstone SQL Scaffolding project. This project was designed in conjunction with Tyler Porcher, and Charles Haislip.
-									Currently the Github repo for this project remains private, but I wanted to document some screenshots displaying our progress.
-								</p>
-								<h3>Problem statement</h3>
-								<p>Our application was designed to help make learning SQL easier for students.  We worked closely with Dr.Otto Borchert  to provide an interactive SQL learning experience.</p>
-								<h4>Site Layout</h4>
-								<h5>Home</h5>
-								<p>Base landing page showing Contributors.</p>
-								<span class="image main"><img src="images/Home.jpg" alt="" /></span>
-								<h5>Question</h5>
-								<p>
-									Page for students to enter SQL answers.  This page is designed to be dropped into an IFrame on the TopHat website.  TopHat is an interactive book website used by professors.
-									When students press execute their code is run on SQLite and if they pass all test cases they will be given a code word they can enter into TopHat when they are finished.
-								</p>
-								<span class="image main"><img src="images/QuestionPage.jpg" alt="" /></span>
-								<h5>Research</h5>
-								<p>
-									Page showing student progress.  For use by Professors.  Connects student data using Firebase from Amazon Web Services.
-								</p>
-								<span class="image main"><img src="images/ResearchPage.jpg" alt="" /></span>
-								<h5>Database View</h5>
-								<p>Place for professor to upload new Databases.</p>
-								<span class="image main"><img src="images/DatabaseUpload.jpg" alt="" /></span>
-							</article>
-						<!-- ML -->
-							<article id="ml">
-								<div class="" id="extraNav" style="padding-top: 10px;">
-									<button onclick="window.location.href='#capstone'">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-left fa-lg"></i></a>
-									</button>
-									<button onclick="window.location.href='#personalProject'" style="float: right;">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-right fa-lg"></i></a>
-									</button>
-									<p></p>
-								</div>
-								<h2 class="major">ML Project</h2>
-								<a type="button" href="https://github.com/TorinStott/ecgMachineLearningProject" target="_blank" class="button">View Code</a>
-								<p></p>
-								<h3>Problem Statement</h3>
-								<p>
-									This project aimed to make predictions using a dataset derived from echocardiogram tests.  It was designed to classify if patients will survive for at least 
-									one year after a heart attack.
-								</p>
-								<h3>Data Preparations</h3>
-								<p>
-									Initial dataset was loaded from UC Irvine which may be downloaded <a href="https://archive.ics.uci.edu/ml/datasets/echocardiogram" target="_blank">here</a>.
-								</p>
-								<p>
-									Shown below is a snapshot of initial data
-								</p>
-								<span class="image main"><img src="images/dataSnapshot.jpg" alt="" /></span>
-								<p>
-									Some columns such as name and group were were stripped from the data.  Note there are also some empty values "?" which also need to be removed to properly train models.
-								</p>
-								<h4>Column Descriptions</h4>
-								<li>Age-at-heart-attack: age in years when patient experienced heart attack</li>
-								<li>Fractional-shortening: measures contractility around heart.</li>
-								<li>Wall-motion-score: measures how parts of left ventricle move</li>
-								<li>And many more.</li>
-								<p>These features were fed into various training models to predict if the patient would be alive after one year</p>
-								<h4>KNN</h4>
-								<span class="image main"><img src="images/KNN.jpg" alt="" style="height: 80%; width: 80%;"/></span>
-								<h4>Perceptron</h4>
-								<span class="image main"><img src="images/Perceptron.jpg" alt="" style="height: 80%; width: 80%;"/></span>
-								<h4>SVM</h4>
-								<span class="image main"><img src="images/SVM.jpg" alt="" style="height: 80%; width: 80%;"/></span>
-								<h3>Conclusion</h3>
-								<p>
-									In this project I learned the importance of utilizing model selection techniques.
-									It is worth exploring using these models with a larger dataset to get more accurate classifications.
-									SVM performed most effectively as a classifier because data was not linearly separable.
-								</p>
-							</article>
-						<!-- Personal Project -->
-						<article id="personalProject">
-							<div class="" id="extraNav" style="padding-top: 10px;">
-								<button onclick="window.location.href='#ml'">
-									<a style="border-bottom: none;"><i class="fas fa-angle-double-left fa-lg"></i></a>
-								</button>
-								<button onclick="window.location.href='#'" style="float: right;">
-									<a style="border-bottom: none;"><i class="fas fa-angle-double-right fa-lg"></i></a>
-								</button>
-								<p></p>
-							</div>
-							<h2 class="major">Personal Project</h2>
-							<a type="button" href="https://github.com/TorinStott/githubUserSearchApp" target="_blank" class="button">View Code</a>
-							<a type="button" href="/userSearchApp.html" target="_blank" class="button">Live Demo</a>
-							<p></p>
-							<h3>Problem Summary</h3>
-							<p>
-								This small project uses the Github API to search for github users quickly.
-								Information such as when the user created their profile, their profile picture
-								 and number of repositories are shown.
-							</p>
-							<p>*Note* Requests are limited when using this API. If search fails retry after a few seconds.<br>
-								<a target="_blank" href="https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting">Git Documentation</a>
-							</p>
-							
-						</article>
-						<!-- Form -->
-							<article id="form">
-								<div class="" id="extraNav" style="padding-top: 10px;">
-									<button onclick="window.location.href='#'">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-left fa-lg"></i></a>
-									</button>
-									<button onclick="window.location.href='#contact'" style="float: right;">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-right fa-lg"></i></a>
-									</button>
-									<p></p>
-								</div>
-								<h1>Contact Form</h1>
-								<form action="https://formsubmit.co/832f03fc84672459d4decd967e816556" method="POST">
-									<label for="name">Name</label>
-									<input type="text" id="name" name="name" placeholder="Your name.." required>
-									<p></p>
-									<label for="email">Email</label>
-									<input type="text" id="email" name="email" placeholder="example@gmail.com" required>
-									<p></p>
-									<label for="subject">Subject</label>
-									<input type="text" id="subject" name="subject" placeholder="Subject">
-									<p></p>
-									<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-									<p>&nbsp;</p>
-									<button type="submit" style="float: right;">Submit</button>
-									<button type="button"  onclick="window.location.href='#'">Cancel</button>
-								</form>
-							</article>
-						<!-- Contact -->
-							<article id="contact">
-								<div class="" id="extraNav" style="padding-top: 10px;">
-									<button onclick="window.location.href='#form'">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-left fa-lg"></i></a>
-									</button>
-									<button onclick="window.location.href='#'" style="float: right;">
-										<a style="border-bottom: none;"><i class="fas fa-angle-double-right fa-lg"></i></a>
-									</button>
-									<p></p>
-								</div>
-								<h2 class="major">Additional Info</h2>
-								<section>
-									<h3>Address</h3>
-									<p>1062 Libby Ariail Circle<br />Chapin, SC 29036</p>
-								</section>
-								<section>
-									<h3>Phone</h3>
-									<p>217-493-7865</p>
-								</section>
-								<section>
-									<h3>Email</h3>
-									<a href="mailto: ts22410@georgiasouthern.edu?subject=Portfolio Contact"><span class="label">Send Email</span></a><p></p>
-								</section>
-								<ul class="icons">
-									<li><a href="https://github.com/TorinStott" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/torin-stott-216279159/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								</ul>
-							</article>
+      <!-- Main -->
+      <div id="main">
+        <!-- About -->
+        <article id="about">
+          <h2 class="major">About</h2>
+          <style>
+            img {
+              height: 40%;
+              width: 40%;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+              border: solid rgb(155, 155, 155) 3px;
+            }
+          </style>
+          <span class="img"
+            ><img src="images/myProfile.jpg" alt="" style="border-radius: 50%"
+          /></span>
+          <p></p>
+          <p>
+            I am Torin Stott, a recent Computer Science graduate at Georgia
+            Southern University. Outside of schooling most of my time is spent
+            coding and tinkering in various linux distributions. I am very
+            interested in application security. I have participated in many CTF
+            style programs such as tryhackme and hacker101.
+          </p>
+          <h4>TryHackMe Profile</h4>
+          <style>
+            .thm_font {
+              min-height: 65px;
+            }
+            .thm_icon {
+              border: 0px;
+            }
+          </style>
+          <script src="https://tryhackme.com/badge/45609"></script>
+          <p></p>
+          <h4>Hacker101 Ctf</h4>
+          <a href="images/hacker101.png">
+            <span class="image main"
+              ><img src="images/hacker101.png" alt=""
+            /></span>
+          </a>
+        </article>
+        <!-- Project -->
+        <article id="capstone">
+          <div class="" id="extraNav" style="padding-top: 10px">
+            <button onclick="window.location.href='#'">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-left fa-lg"></i
+              ></a>
+            </button>
+            <button onclick="window.location.href='#ml'" style="float: right">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-right fa-lg"></i
+              ></a>
+            </button>
+            <p></p>
+          </div>
+          <h2 class="major">Capstone Project</h2>
+          <p>
+            Pictured below is my Capstone SQL Scaffolding project. This project
+            was designed in conjunction with Tyler Porcher, and Charles Haislip.
+            Currently the Github repo for this project remains private, but I
+            wanted to document some screenshots displaying our progress.
+          </p>
+          <h3>Problem statement</h3>
+          <p>
+            Our application was designed to help make learning SQL easier for
+            students. We worked closely with Dr.Otto Borchert to provide an
+            interactive SQL learning experience.
+          </p>
+          <h4>Site Layout</h4>
+          <h5>Home</h5>
+          <p>Base landing page showing Contributors.</p>
+          <span class="image main"><img src="images/Home.jpg" alt="" /></span>
+          <h5>Question</h5>
+          <p>
+            Page for students to enter SQL answers. This page is designed to be
+            dropped into an IFrame on the TopHat website. TopHat is an
+            interactive book website used by professors. When students press
+            execute their code is run on SQLite and if they pass all test cases
+            they will be given a code word they can enter into TopHat when they
+            are finished.
+          </p>
+          <span class="image main"
+            ><img src="images/QuestionPage.jpg" alt=""
+          /></span>
+          <h5>Research</h5>
+          <p>
+            Page showing student progress. For use by Professors. Connects
+            student data using Firebase from Amazon Web Services.
+          </p>
+          <span class="image main"
+            ><img src="images/ResearchPage.jpg" alt=""
+          /></span>
+          <h5>Database View</h5>
+          <p>Place for professor to upload new Databases.</p>
+          <span class="image main"
+            ><img src="images/DatabaseUpload.jpg" alt=""
+          /></span>
+        </article>
+        <!-- ML -->
+        <article id="ml">
+          <div class="" id="extraNav" style="padding-top: 10px">
+            <button onclick="window.location.href='#capstone'">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-left fa-lg"></i
+              ></a>
+            </button>
+            <button
+              onclick="window.location.href='#personalProject'"
+              style="float: right"
+            >
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-right fa-lg"></i
+              ></a>
+            </button>
+            <p></p>
+          </div>
+          <h2 class="major">ML Project</h2>
+          <a
+            type="button"
+            href="https://github.com/TorinStott/ecgMachineLearningProject"
+            target="_blank"
+            class="button"
+            >View Code</a
+          >
+          <p></p>
+          <h3>Problem Statement</h3>
+          <p>
+            This project aimed to make predictions using a dataset derived from
+            echocardiogram tests. It was designed to classify if patients will
+            survive for at least one year after a heart attack.
+          </p>
+          <h3>Data Preparations</h3>
+          <p>
+            Initial dataset was loaded from UC Irvine which may be downloaded
+            <a
+              href="https://archive.ics.uci.edu/ml/datasets/echocardiogram"
+              target="_blank"
+              >here</a
+            >.
+          </p>
+          <p>Shown below is a snapshot of initial data</p>
+          <span class="image main"
+            ><img src="images/dataSnapshot.jpg" alt=""
+          /></span>
+          <p>
+            Some columns such as name and group were were stripped from the
+            data. Note there are also some empty values "?" which also need to
+            be removed to properly train models.
+          </p>
+          <h4>Column Descriptions</h4>
+          <li>
+            Age-at-heart-attack: age in years when patient experienced heart
+            attack
+          </li>
+          <li>Fractional-shortening: measures contractility around heart</li>
+          <li>Wall-motion-score: measures how parts of left ventricle move</li>
+          <li>LVDD: measure of the heart at end diastole</li>
+          <p>
+            These features were fed into various training models to predict if
+            the patient would be alive after one year
+          </p>
+          <h4>KNN</h4>
+          <span class="image main"
+            ><img src="images/KNN.jpg" alt="" style="height: 80%; width: 80%"
+          /></span>
+          <h4>Perceptron</h4>
+          <span class="image main"
+            ><img
+              src="images/Perceptron.jpg"
+              alt=""
+              style="height: 80%; width: 80%"
+          /></span>
+          <h4>SVM</h4>
+          <span class="image main"
+            ><img src="images/SVM.jpg" alt="" style="height: 80%; width: 80%"
+          /></span>
+          <h3>Conclusion</h3>
+          <p>
+            In this project I learned the importance of utilizing model
+            selection techniques. It is worth exploring using these models with
+            a larger dataset to get more accurate classifications. SVM performed
+            most effectively as a classifier because data was not linearly
+            separable.
+          </p>
+        </article>
+        <!-- Personal Project -->
+        <article id="personalProject">
+          <div class="" id="extraNav" style="padding-top: 10px">
+            <button onclick="window.location.href='#ml'">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-left fa-lg"></i
+              ></a>
+            </button>
+            <button
+              onclick="window.location.href='#capstone'"
+              style="float: right"
+            >
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-right fa-lg"></i
+              ></a>
+            </button>
+            <p></p>
+          </div>
+          <h2 class="major">Personal Project</h2>
+          <a
+            type="button"
+            href="https://github.com/TorinStott/githubUserSearchApp"
+            target="_blank"
+            class="button"
+            >View Code</a
+          >
+          <a
+            type="button"
+            href="/userSearchApp.html"
+            target="_blank"
+            class="button"
+            >Live Demo</a
+          >
+          <p></p>
+          <h3>Problem Summary</h3>
+          <p>
+            This small project uses the Github API to search for github users
+            quickly. Information such as when the user created their profile,
+            their profile picture and number of repositories are shown.
+          </p>
+          <p>
+            *Note* Requests are limited when using this API. If search fails
+            retry after a few seconds.<br />
+            <a
+              target="_blank"
+              href="https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting"
+              >Git Documentation</a
+            >
+          </p>
+        </article>
+        <!-- Form -->
+        <article id="form">
+          <div class="" id="extraNav" style="padding-top: 10px">
+            <button onclick="window.location.href='#'">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-left fa-lg"></i
+              ></a>
+            </button>
+            <button
+              onclick="window.location.href='#contact'"
+              style="float: right"
+            >
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-right fa-lg"></i
+              ></a>
+            </button>
+            <p></p>
+          </div>
+          <h1>Contact Form</h1>
+          <form
+            action="https://formsubmit.co/832f03fc84672459d4decd967e816556"
+            method="POST"
+          >
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name.."
+              required
+            />
+            <p></p>
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+            />
+            <p></p>
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+            />
+            <p></p>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+            <p>&nbsp;</p>
+            <button type="submit" style="float: right">Submit</button>
+            <button type="button" onclick="window.location.href='#'">
+              Cancel
+            </button>
+          </form>
+        </article>
+        <!-- Contact -->
+        <article id="contact">
+          <div class="" id="extraNav" style="padding-top: 10px">
+            <button onclick="window.location.href='#form'">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-left fa-lg"></i
+              ></a>
+            </button>
+            <button onclick="window.location.href='#'" style="float: right">
+              <a style="border-bottom: none"
+                ><i class="fas fa-angle-double-right fa-lg"></i
+              ></a>
+            </button>
+            <p></p>
+          </div>
+          <h2 class="major">Additional Info</h2>
+          <section>
+            <h3>Address</h3>
+            <p>1062 Libby Ariail Circle<br />Chapin, SC 29036</p>
+          </section>
+          <section>
+            <h3>Phone</h3>
+            <p>217-493-7865</p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <a
+              href="mailto: ts22410@georgiasouthern.edu?subject=Portfolio Contact"
+              ><span class="label">Send Email</span></a
+            >
+            <p></p>
+          </section>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://github.com/TorinStott"
+                class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/torin-stott-216279159/"
+                class="icon brands fa-linkedin"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+        </article>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-								<section>
-									<pre><code>i = 0;
+        <!-- Elements -->
+        <article id="elements">
+          <h2 class="major">Elements</h2>
+          <section>
+            <pre><code>i = 0;
 
 while (!deck.isInOrder()) {
     print 'Iteration ' + i;
@@ -290,22 +454,20 @@ while (!deck.isInOrder()) {
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-							</article>
-					</div>
-				<!-- Footer -->
-					<footer id="footer">
-					</footer>
-			</div>
-		<!-- BG -->
-			<div id="bg" class="scene"></div>
+          </section>
+        </article>
+      </div>
+      <!-- Footer -->
+      <footer id="footer"></footer>
+    </div>
+    <!-- BG -->
+    <div id="bg" class="scene"></div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
